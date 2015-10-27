@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mFast optimizing /Users/kaiyin/personal_config_bin_files/workspace/scalajsLearn/target/scala-2.11/scalajslearn-fastopt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Read info: 4159 us[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 32160 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 10499 us[0m
+[0m[[0mdebug[0m] [0mLinker: cache stats: reused: 3767 -- invalidated: 1 -- trees read: 1[0m
+[0m[[0mdebug[0m] [0mLinker: 48192 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: false[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 4966 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 1 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 306 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 7197 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 25028 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 2370 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 27485 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 197 -- invalidated: 1[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 470 -- invalidated: 1[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 20572 us[0m
