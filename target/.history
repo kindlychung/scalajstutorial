@@ -18,3 +18,10 @@ fastOptJS
 test
 reload
 test
+fullOptJS
+fastOptJS
+reload
+fastOptJS
+fullOptJS
+reload
+fullOptJS

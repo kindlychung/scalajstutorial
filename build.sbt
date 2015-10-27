@@ -18,6 +18,9 @@ libraryDependencies += "com.lihaoyi" %%% "utest" % "0.3.0" % "test"
 
 testFrameworks += new TestFramework("utest.runner.Framework")
 
+persistLauncher in Compile := true
+
+persistLauncher in Test := false
 
 
 

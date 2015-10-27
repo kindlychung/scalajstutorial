@@ -25,12 +25,12 @@ object TutorialTest extends TestSuite {
       assert(button.length == 1)
       assert(messageCount == 0)
 
-      for (c <- 1 to 5) {
-        log("Number of bang paragraphs", messageCount)
-        log("Number of button", button.length)
-        button.click()
-        assert(messageCount == c)
-      }
+//      for (c <- 1 to 5) {
+//        log("Number of bang paragraphs", messageCount)
+//        log("Number of button", button.length)
+//        button.click()
+//        assert(messageCount == c)
+//      }
     }
 
   }

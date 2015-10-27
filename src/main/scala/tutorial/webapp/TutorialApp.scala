@@ -38,4 +38,5 @@ object TutorialApp extends JSApp {
   def setupBehavior: Unit = {
     jQuery("#click-me-button").click(() => addClickedMessage("Bang!"))
   }
+
 }

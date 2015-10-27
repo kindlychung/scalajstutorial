@@ -1,11 +1,114 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(tutorial.webapp.TutorialTest, org.scalajs.testadapter.FingerprintSerializers$DeserializedSubclassFingerprint@4434beff, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(tutorial.webapp.TutorialTest, org.scalajs.testadapter.FingerprintSerializers$DeserializedSubclassFingerprint@42c32fa2, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0m-----------------------------------Results-----------------------------------[0m
 [0m[[0minfo[0m] [0mtutorial.webapp.TutorialTest		[32mSuccess[0m[0m
 [0m[[0minfo[0m] [0m    HelloWorld		[32mSuccess[0m[0m
-[0m[[0minfo[0m] [0m    ButtonClick		[32mSuccess[0m[0m
-[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m    ButtonClick		[31mFailure('utest.AssertionError: assert(messageCount == c)[0m
+[0m[[0minfo[0m] [0m    c: Int = 1')[0m[0m
+[0m[[0minfo[0m] [0m[31mFailures:[0m
+[0m[[0minfo[0m] [0m2/3     tutorial.webapp.TutorialTest.ButtonClick		[31m[0m
+[0m[[0minfo[0m] [0m           		[31mutest.AssertionError: assert(messageCount == c)[0m
+[0m[[0minfo[0m] [0m           		[31mc: Int = 1[0m[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/StackTrace.scala:39:42)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/StackTrace.scala:33:17)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/javalanglib/src/main/scala/java/lang/Throwables.scala:24:50)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/javalanglib/src/main/scala/java/lang/Throwables.scala:12:19)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Errors.scala:20:45)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/asserts/package.scala:19:5)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/asserts/package.scala:38:56)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:15:38)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/asserts/Asserts.scala:74:22)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:15:38)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/collection/IndexedSeqOptimized.scala:33:24)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/js/WrappedArray.scala:20:13)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/asserts/Asserts.scala:72:16)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/kaiyin/personal_config_bin_files/workspace/scalajsLearn/src/test/scala/tutorial/webapp/TutorialTest.scala:32:15)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/scalalib/overrides-2.11/scala/collection/immutable/Range.scala:160:8)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/kaiyin/personal_config_bin_files/workspace/scalajsLearn/src/test/scala/tutorial/webapp/TutorialTest.scala:28:14)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/kaiyin/personal_config_bin_files/workspace/scalajsLearn/src/test/scala/tutorial/webapp/TutorialTest.scala:12:25)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:166:31)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:164:27)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:61:78)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:10:30)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/util/Try.scala:192:16)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:61:48)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:61:48)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/Option.scala:158:5)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:61:93)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:61:93)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/util/Try.scala:237:43)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/util/Try.scala:237:43)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:10:30)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/util/Try.scala:192:16)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/util/Try.scala:237:41)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:235:25)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:235:20)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:15:38)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:32:19)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/ExecutionContext.scala:16:21)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:40:25)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:280:61)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:270:28)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:235:16)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:153:9)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:61:37)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:59:11)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Future.scala:24:20)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Future.scala:23:15)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/ExecutionContext.scala:16:21)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Future.scala:31:29)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:492:114)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:107:14)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:82:100)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:81:54)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/Option.scala:158:5)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:81:47)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:83:24)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:15:38)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:251:31)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:249:16)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:15:38)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:32:19)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/ExecutionContext.scala:16:21)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:40:25)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:280:61)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:270:28)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:249:16)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Promise.scala:153:9)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:82:100)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:81:54)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/Option.scala:158:5)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:81:47)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:88:38)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:59:11)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Future.scala:24:20)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Future.scala:23:15)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/ExecutionContext.scala:16:21)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/impl/Future.scala:31:29)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/concurrent/Future.scala:492:114)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:107:14)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/framework/Model.scala:133:22)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/package.scala:135:6)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/runner/BaseRunner.scala:70:21)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/runner/BaseRunner.scala:95:35)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:30:68)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/runner/Task.scala:48:19)[0m
+[0m[[0minfo[0m] [0m[31m(file:/Users/haoyi/Dropbox%20(Personal)/Workspace/utest-new/utest/js/../shared/src/main/scala/utest/runner/Task.scala:31:17)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/Slave.scala:104:36)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/Slave.scala:104:36)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:10:30)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala/scala/v2.11.7/src/library/scala/util/Try.scala:192:16)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/Slave.scala:104:23)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/Slave.scala:36:18)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/Slave.scala:31:7)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.5/library/src/main/scala/scala/scalajs/runtime/AnonFunctions.scala:10:30)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/Slave.scala:69:7)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/Slave.scala:30:28)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/BridgeBase.scala:34:20)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/BridgeBase.scala:19:14)[0m
+[0m[[0minfo[0m] [0m[31m(https://raw.githubusercontent.com/scala-js/scala-js/v0.6.0/test-interface/src/main/scala/org/scalajs/testinterface/internal/BridgeBase.scala:19:14)[0m
 [0m[[0minfo[0m] [0mTests: 3[0m
-[0m[[0minfo[0m] [0mPassed: 3[0m
-[0m[[0minfo[0m] [0mFailed: 0[0m
-[0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	tutorial.webapp.TutorialTest[0m
+[0m[[0minfo[0m] [0mPassed: 2[0m
+[0m[[0minfo[0m] [0mFailed: 1[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	tutorial.webapp.TutorialTest[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
